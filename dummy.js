@@ -2,16 +2,7 @@
 
 var dummy_info = {
   // Customer module configs
-  "users": [
-    {
-      "username": "admin",
-      "password": "admin"
-    },
-    {
-      "username": "roberto",
-      "password": "asdfpiuw981"
-    }
-  ],
+ 
 
   "products": [
     {
@@ -49,7 +40,10 @@ var dummy_info = {
       "description": "Be the best father with Daddle: dad's saddle for horsing around.",
       "price": parseInt(Math.random() * 100),
       "image": "product_6.jpg"
-    },
+      "user": "admin",
+      "password": "1234",
+    }
+    
     {
       "name": "HD Vision",
       "description": "Reality is not enough for you? Improve your live with the HD vision glasses.",
